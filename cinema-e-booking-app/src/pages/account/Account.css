@@ -1,0 +1,197 @@
+#page-container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+.account-form h1 {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff0f;
+    color: white;
+    border-radius: 1em;
+    padding: 2em 4em 2em 4em;
+    margin: 1em;
+}
+
+
+#column-title {
+    text-align: center;
+    font-size: 2em;
+    width: max-content;
+}
+
+#text-label {
+    color: white;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+}
+
+#update-button {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    margin: 2em auto 2em auto;
+    border-radius: 1em;
+    background-color: #ffffff8e;
+    color: #000;
+    padding: 1em 5em 1em 5em;
+    transition: ease 0.2s;
+    align-content: center;
+    text-align: center;
+    border: none;
+}
+
+#update-button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#edit-button {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    margin: 1em auto 1em auto;
+    border-radius: 1em;
+    background-color: #ffffff8e;
+    color: #000;
+    transition: ease 0.2s;
+    border: none;
+    width: fit-content;
+    padding: 0.5em 2em 0.5em 2em;
+}
+
+#edit-button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.billing-address-entry {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    width: max-content;
+    align-items: center;
+}
+
+#shipping-address-entry {
+    color: white !important;
+    width: 100%;
+}
+
+
+#input-field {
+    border-radius: 1em;
+    text-indent: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+#expiration-date {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#date-selector {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+}
+
+#promotion {
+    margin: auto;
+}
+
+#promotion-text {
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+}
+
+#close-overlay {
+    position: flex;
+    margin: 1em 1em 0 auto;
+    background-color: #5b5b5b74;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+  }
+  
+  #close-overlay p {
+    margin: auto;
+    text-align: center;
+  }
+  
+  #close-overlay:hover {
+    background-color: #ffffff74;
+    transform: scale(1.05);
+  }
+
+  #overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    backdrop-filter: blur(5px);
+  }
+  
+  #popup {
+    position: flex;
+    width: 100%;
+    margin: auto;
+    border-radius: 1em;
+    z-index: 1000;
+  }
+
+  @media screen and (max-width: 800px) {
+    #page-container {
+        padding: 0;
+        width: 100%;
+    }
+
+    .account-form h1 {
+        font-size: 1.5em;
+    }
+
+    #column-container {
+        padding: 1em;
+    }
+
+    .billing-address-entry {
+        width: 100%;
+    }
+
+    #input-field {
+        width: 100%;
+    }
+
+    #update-button, #edit-button {
+        padding: 1em 2em;
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+    #page-container {
+        flex-direction: column;
+    }
+}

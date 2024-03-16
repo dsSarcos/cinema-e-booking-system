@@ -1,0 +1,36 @@
+.add-promotion-container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.add-promotion-container h1 {
+    text-align: center;
+}
+
+#add-promotion-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#add-promotion-text-field {
+    border-radius: 1em;
+    text-indent: 1em;
+}
+
+#add-promotion-button {
+    border-radius: 1em;
+    padding: 0.5em 3em 0.5em 3em;
+    align-self: center;
+    border: none;
+    background-color: #ffffff8e;
+    color: #000;
+    transition: ease 0.2s;
+    margin-top: 1em;
+}
+
+#add-promotion-button:hover {
+    background-color: #fff; 
+    color: #000;
+}

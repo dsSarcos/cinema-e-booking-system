@@ -1,0 +1,51 @@
+.confirm-registration-container {
+    width: fit-content;
+    display: flex;
+    margin: auto;
+}
+
+.confirmation-form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.confirmation-form p {
+    text-align: center;
+}
+
+.confirm-registration-label {
+    display: flex;
+    margin: auto;
+}
+
+.confirmation-form label {
+    text-align: center;
+}
+
+.confirmation-form input {
+    margin: auto;
+}
+
+.confirmation-text-field {
+    border-radius: 1em;
+    text-indent: 0.5em;
+    width: fit-content;
+}
+
+#confirmation-button {
+    display: flex;
+    margin: 2em auto 2em auto;
+    border-radius: 1em;
+    background-color: black;
+    color: white;
+    padding: 0.5em 3em 0.5em 3em;
+    border: none;
+    transition: ease 0.2s;
+    text-decoration: none !important;
+}
+
+#confirmation-button:hover {
+    background-color: #ffffff0f;
+}

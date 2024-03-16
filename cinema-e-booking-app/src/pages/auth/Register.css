@@ -1,0 +1,65 @@
+.registration-container {
+    display: flex;
+    margin: auto;
+    width: fit-content;
+}
+
+.register-form {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.register-form hr {
+    width: 100%;
+}
+
+.register-form login-error {
+
+}
+
+.emailHeader,
+.passwordHeader,
+.nameHeader,
+.phoneNumHeader,
+.optionalHeader {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+label {
+    text-align: left;
+    padding: 10px;
+}
+
+.create-button {
+    margin: 2em;
+    border-radius: 0.75em;
+    background-color: black;
+    color: white;
+    padding: 0.5em 3em 0.5em 3em;
+    border: none;
+    transition: ease 0.2s;
+}
+
+.create-button:hover {
+    background-color: #ffffff0f;
+}
+
+.expire {
+    display: inline-block;
+}
+
+.expireDateHeader,
+.homeAddyHeader {
+    font-weight: bold;
+}
+
+.register-text-field {
+    border-radius: 1em;
+    text-indent: 0.5em;
+    margin-bottom: 1em;
+}

@@ -1,0 +1,80 @@
+.select-seat {
+    color: white;
+    width: fit-content;
+    height: 85vh;
+}
+
+#seat {
+    margin: 1em 2em 1em 2em;
+}
+
+.seat-selection-legend {
+    margin: auto;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.seat-selection-legend-entry {
+    margin: auto 0.5em auto 0.5em;
+}
+
+.seat-selection-legend-entry #green-entry {
+    background-color: green;
+    color: transparent;
+    border-radius: 5px;
+    border: 0;
+}
+
+.seat-selection-legend-entry #red-entry {
+    background-color: red;
+    color: transparent;
+    border-radius: 5px;
+    border: 0;
+}
+
+.seat-selection-legend-entry #gray-entry {
+    background-color: gray;
+    color: transparent;
+    border-radius: 5px;
+    border: 0;
+}
+
+#selected-seats p {
+    display: inline-block;
+}
+
+#confirm-seats-button {
+    padding: 1em 3em 1em 3em;
+    border-radius: 5em;
+    margin: 2em auto 2em auto;
+    background-color: #ffffff8e;
+    color: black;
+    transition: ease 0.2s;
+    border: 0;
+}
+
+#confirm-seats-button:hover {
+    background-color: #ffffffff;
+    color: black;
+}
+
+#not-selected-seats-button {
+    padding: 1em 3em 1em 3em;
+    border-radius: 5em;
+    margin: 2em auto 2em auto;
+    background-color: #ffffff37;
+    color: black;
+    border: 0;
+}
+
+@media screen and (max-width: 768px) {
+    #seat {
+        margin: 1em 1em 1em 1em;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    #seat {
+        margin: 1em 0.5em 1em 0.5em;
+    }
+  }

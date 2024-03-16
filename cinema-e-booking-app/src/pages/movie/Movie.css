@@ -1,0 +1,165 @@
+.movie-button {
+    background-color:lightblue;
+    color: black;
+    border-radius: 2em;
+    font-weight: bold;
+    border: none;
+    padding: 0.25em 1em 0.25em 1em;
+}
+
+.movie-button h3 {
+    color: black;
+}
+
+.movie-button:hover {
+    background-color:rgba(173, 216, 230, 0.762);
+}
+
+.movie-info {
+    min-width: 300px;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 1em;
+}
+
+.movie-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+}
+
+.select-seat {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+#movie-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+}
+
+#movie-img {
+    width: 100%; /* Set image width to fill container */
+    height: 100%; /* Set image height to fill container */
+    object-fit: cover;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+}
+
+#movie-information {
+    width: fit-content;
+    height: 100%;
+    margin: 0 3em 0 3em;
+}
+
+#trailer {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1em;
+    height: 0;
+    position: relative;
+    padding-bottom: 30%;
+}
+
+#movie-trailer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+    margin: auto;
+}
+
+#details {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+#movie-information a {
+    text-decoration: none;
+}
+
+#poster {
+    min-width: 368px;
+    width: 20%;
+    margin-right: 3em;
+}
+
+#book-tickets-button {
+    padding: 0 3em 0 3em;
+}
+
+#movie-information button {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-message {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#upcoming-movie h2 {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    /* Small screen styles */
+    #trailer {
+        width: 100%;
+    }
+
+    #poster {
+        margin: auto;
+    }
+
+    #movie-information {
+        margin: 1em;
+    }
+
+    #details {
+        flex-direction: column;
+        margin: auto !important;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Medium screen styles */
+    #trailer {
+        width: 70%;
+    }
+
+    #movie-information {
+        margin: 1em 3em 1em 3em;
+    }
+
+    #details {
+        flex-direction: column;
+    }
+
+    #poster {
+        margin: auto;
+    }
+  }
+  
+  @media screen and (max-width: 1500px) {
+    /* Large screen styles */
+    #trailer {
+        width: 60%;
+    }
+
+    #details {
+        margin-right: 3em;
+    }
+  }

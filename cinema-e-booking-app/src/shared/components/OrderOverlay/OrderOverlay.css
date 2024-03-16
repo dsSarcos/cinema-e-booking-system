@@ -1,0 +1,20 @@
+#order-container {
+  position: flex;
+  justify-content: center;
+  vertical-align: top;
+  height: 500px;
+  margin: auto 5em auto 5em;
+  overflow-y: scroll;
+}
+
+#order {
+  color: white;
+  position: relative;
+  vertical-align: top;
+}
+
+#text-label {
+  color: white;
+  display: flex;
+  align-items: left;
+}

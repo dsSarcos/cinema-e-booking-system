@@ -1,0 +1,58 @@
+.manage-members-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.manage-members-container h1 {
+    text-align: center;
+}
+
+.manage-members-container table {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: auto;
+}
+
+.manage-members-container th {
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+.manage-members-container td {
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+
+#manage-members-button {
+    border-radius: 1em;
+    align-self: center;
+    border: none;
+    background-color: #ffffff8e;
+    color: #000;
+    transition: ease 0.2s;
+    padding: 0 1em 0 1em;
+}
+
+#manage-members-button:hover {
+    background-color: #fff; 
+    color: #000;
+}
+
+#delete-member-button {
+    border-radius: 1em;
+    align-self: center;
+    border: none;
+    background-color: #ffffff8e;
+    color: #000;
+    transition: ease 0.2s;
+    padding: 0 1em 0 1em;
+}
+
+#delete-member-button:hover {
+    background-color: #ee5353; 
+    color: #000;
+}

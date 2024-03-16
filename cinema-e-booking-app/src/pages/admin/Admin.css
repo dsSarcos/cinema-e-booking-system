@@ -1,0 +1,88 @@
+.home-container {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.panel h1 {
+    text-align: center;
+}
+
+#panel-container {
+    background-color: #ffffff0f;
+    padding: 1em;
+    border-radius: 1em;
+    min-width: min-content;
+  }
+
+.admin-menu {
+    display: flex;
+    height: 100%;
+    font-size: 2em;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+}
+
+.admin-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin-view {
+    flex: 9;
+    height: 80vh;
+    overflow-y: scroll;
+    color: #fff;
+    text-align: center;
+    padding-right: 1em;
+}
+
+.admin-menu-options {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.admin-menu-ul {
+    color: lightblue;
+    font-size: 25px;
+    padding: 0;
+    margin: 5px;
+}
+
+
+.admin-menu-li {
+    color: white;
+    background-color: #ffffff8e;
+    font-size: 20px;
+    width: 10em;
+    border: none;
+    margin: auto;
+    transition: ease 0.2s;
+    border-radius: 1em;
+}
+
+.admin-menu-li:hover {
+    background-color: #fff;
+    color: #000;
+    border: none;
+}
+
+#warning {
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.admin-menu-section {
+  margin: 0.5em 0 0 0;
+  align-items: center;
+  text-align: center;
+}
+
+.admin-menu-section h3 {
+  color: lightcoral;
+  text-align: center;
+}

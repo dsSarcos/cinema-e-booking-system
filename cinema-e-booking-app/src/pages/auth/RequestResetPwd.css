@@ -1,0 +1,27 @@
+.password-reset-email-form {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5em 0 5em;
+}
+
+.password-reset-field-header {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    display: flex;
+    margin: auto;
+}
+
+#password-reset-info {
+    color: white;
+}
+
+#password-reset-info p {
+    text-align: center;
+}
+
+#reset-password-container {
+    width: fit-content;
+    margin: auto;
+    padding: auto 3em auto 3em;
+}

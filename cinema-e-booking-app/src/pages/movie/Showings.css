@@ -1,0 +1,39 @@
+#showtime-container {
+    width: fit-content;
+    margin: auto;
+    color: white;
+    padding: 2em;
+    height: 85vh;
+}
+
+#showtime-container h1 {
+    text-align: center;
+}
+
+#showtime-container td, tr, th {
+    padding: 0.5em 1em 0.5em 1em;
+    border-bottom: 1px solid white;
+}
+
+#showtimes {
+    width: 300px
+}
+
+#showtime-container table {
+    margin: auto;
+}
+
+#showtime-button {
+    border-radius: 1em;
+    align-self: center;
+    border: none;
+    background-color: #ffffff8e;
+    color: #000;
+    transition: ease 0.2s;
+    width: 6em;
+}
+
+#showtime-button:hover {
+    background-color: #fff; 
+    color: #000;
+}

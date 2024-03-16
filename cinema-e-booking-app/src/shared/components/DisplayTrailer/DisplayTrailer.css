@@ -1,0 +1,16 @@
+#trailer-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+#movie-trailer {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#movie-title {
+  color: white;
+  margin: auto;
+}

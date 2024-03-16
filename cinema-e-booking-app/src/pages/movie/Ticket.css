@@ -1,0 +1,80 @@
+#tickets-and-pricing-container {
+    display: flex;
+    margin: auto;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    width: fit-content;
+    height: 85vh;
+}
+
+#tickets-and-pricing-container table {
+    margin: auto;
+}
+
+#tickets-and-pricing-container tr {
+    height: 4rem;
+    border-bottom: 1px solid #ffffff2b;
+}
+
+.tickets-and-pricing-movie-info {
+    margin: auto;
+    display: inline-block;
+}
+
+#tickets-and-pricing-container input {
+    border-radius: 5em;
+    margin-left: 1em;
+    border: 0;
+}
+
+.increment-tickets-button {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border:0;
+    background-color: #ffffff8e;
+    color: black;
+    transition: ease 0.2s;
+}
+
+.increment-tickets-button:hover {
+    background-color: #ffffffff;
+    color: black;
+}
+
+#apply-promotion-button {
+    width: 5rem;
+    border-radius: 5em;
+    margin-left: 1em;
+    background-color: #ffffff8e;
+    color: black;
+    transition: ease 0.2s;
+    border: 0;
+}
+
+#apply-promotion-button:hover {
+    background-color: #ffffffff;
+    color: black;
+}
+
+.total-price-section {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+
+#confirm-ticket-button {
+    padding: 1em 3em 1em 3em;
+    border-radius: 5em;
+    margin: 2em auto 2em auto;
+    background-color: #ffffff8e;
+    color: black;
+    transition: ease 0.2s;
+    border: 0;
+}
+
+#confirm-ticket-button:hover {
+    background-color: #ffffffff;
+    color: black;
+}

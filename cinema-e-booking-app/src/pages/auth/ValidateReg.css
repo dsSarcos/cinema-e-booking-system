@@ -1,0 +1,28 @@
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.validate-form h1, h2, h3, h4, h5, p{
+    color: white;
+    text-align: center;
+} 
+
+#validate-login-button {
+    display: flex;
+    margin: 2em auto 2em auto;
+    border-radius: 1em;
+    background-color: #ffffff8e;
+    color: #000;
+    padding: 1em 5em 1em 5em;
+    transition: ease 0.2s;
+    align-content: center;
+    text-align: center;
+    border: none;
+}
+
+#validate-login-button:hover {
+    background-color: #fff;
+    color: #000;
+}

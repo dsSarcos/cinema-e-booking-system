@@ -1,0 +1,136 @@
+.checkout {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.checkout h1 {
+    display: block;
+}
+
+.checkout-movie-info {
+    margin: auto;
+    display: inline-block;
+}
+
+.checkout h1 {
+    display: block;
+}
+
+.checkout-movie-info {
+    margin: auto;
+    display: inline-block;
+}
+
+.checkout td { 
+    color: white
+}
+
+.checkout-info th {
+    border-bottom: 1px solid #ffffff2b;
+}
+
+.checkout-info table {
+    margin: auto;
+    align-self: center;
+    display: inline-flexbox;
+}
+
+.order-confirmation {
+    display: flex;
+    margin: auto;
+    width: fit-content;
+    color: white;
+}
+
+.order-confirmation h1, 
+.order-confirmation p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.order-confirmation p {
+    margin: 1em 5em 1em 5em;
+}
+
+.order-summary-table tr {
+    border-bottom: 1px solid #ffffff2b;
+}
+
+#subtotal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff2b;
+    margin-bottom: 1em;
+}
+
+#subtotal p {
+    margin: auto;
+}
+
+.order-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+#order-button {
+    border-radius: 1em;
+    width: 60%;
+    margin: 0.5em auto 0.5em auto;
+    padding: auto 2em auto 2em;
+    align-self: center;
+    border: none;
+    background-color: #ffffff8e;
+    color: #000;
+    transition: ease 0.2s;
+}
+
+#order-button:hover {
+    background-color: #fff; 
+    color: #000;
+}
+
+.card-selector,
+.card-selector-selected {
+  border-radius: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  transition: background-color 0.2s ease;
+  margin-bottom: 0.5em;
+}
+
+.card-selector {
+  background-color: #ffffff16;
+}
+
+.card-selector-selected {
+  background-color: #ffffff27;
+}
+
+#card-selector input {
+    margin-left: 1em;
+}
+
+#card-selector-content { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 1em;
+    margin-right: 1em;
+    height: 1em;
+}
+
+#card-selector-content p {
+    margin-top: auto;
+    line-height: 1;
+}

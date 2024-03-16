@@ -1,0 +1,102 @@
+.AddMovies {
+    margin-top: 2em;
+}
+
+.AddMovies form {
+    display: flex;
+    flex-direction: column;
+}
+
+.AddMovies h1 {
+    font-weight: 700;
+    text-align: center;
+}
+
+.AddMovies p {
+    margin-bottom: 0;
+    margin-right: 10px;
+    display: inline-block;
+    color: white;
+}
+
+.AddMovies label {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+input[type=submit] {
+    display: block;
+    width: 120px;
+    border: none;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#text-field {
+    border-radius: 1em;
+    text-indent: 1em;
+    margin-top: 1em;
+}
+
+#synopsis {
+    border-radius: 1em;
+    text-indent: 1em;
+    margin-top: 1em;
+}
+
+#runtime {
+    border-radius: 1em;
+    text-indent: 1em;
+    margin-top: 1em;
+}
+
+#select-field {
+    border-radius: 1em;
+    margin-top: 1em;
+    text-align: center;
+    text-align-last: center;
+    margin: 1em 40% 0 40%;
+}
+
+#add-movie-button {
+    border-radius: 2em;
+    padding: 1em 3em 1em 3em;
+    align-self: center;
+    border: none;
+    background-color: #ffffff8e;
+    color: #000;
+    transition: ease 0.2s;
+}
+  
+#add-movie-button:hover {
+    background-color: #fff; 
+    color: #000;
+}
+
+#add-movie-confirmation {
+    width: fit-content;
+    position: flex;
+    width: fit-content;
+    margin: auto;
+    border-radius: 1em;
+    z-index: 1000;
+    text-align: center;
+    background-color: #202020;
+}
+
+#prompt {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+}
+

@@ -1,0 +1,28 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(circle at top left, #7b2d2d, #121212 50%);
+}
+
+body {
+  width: 100%;
+  background: radial-gradient(circle at top left, #7b2d2d, #121212 50%);
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    padding-top: 120px;
+  }
+}

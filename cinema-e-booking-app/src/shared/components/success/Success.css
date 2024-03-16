@@ -1,0 +1,20 @@
+.success-container {
+  padding: 15px 15px 15px 15px;
+  margin: 20px auto auto auto;
+  width: 40%;
+  text-align: center;
+  background-color: rgb(18, 18, 18);
+  border-radius: 20px;
+}
+
+.success-heading {
+  color: green;
+  font-size: xx-large;
+  font-weight: bold;  
+  text-decoration: underline;
+  margin-bottom: 25px;
+}
+
+.success {
+  color: white;
+}
